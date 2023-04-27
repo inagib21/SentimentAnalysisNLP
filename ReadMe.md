@@ -37,13 +37,16 @@ We built several machine learning models to classify the sentiment of the tweets
 
 We evaluated the performance of each model using accuracy and F1 scores, and chose the best-performing model to apply to the entire dataset.
 
+# Results: 
+Our best performing mulitclass model
+
 # Limitations and Further Analysis
 - One limitation of this project is that the dataset is relatively small and may not be representative of the broader sentiment around the SXSW conference.
 - Another limitation is that the dataset only includes tweets from a limited time period and may not capture changes in sentiment over time.
-In future analysis, it would be interesting to explore the use of more advanced machine learning models such as BERT or GPT-3, which have shown promise in natural language processing tasks.
-Additionally, it would be valuable to conduct a more in-depth analysis of the tweets in the neutral class to determine whether they can be classified as positive or negative with greater accuracy.
-Another area for further analysis is to explore how sentiment varies across different brands and products showcased at the SXSW conference, particularly for major brands such as Google and Apple.
-Finally, it would be valuable to explore how sentiment around the SXSW conference has evolved over time and how it compares to other similar events in the industry.
+- In future analysis, it would be interesting to explore the use of more advanced machine learning models such as BERT or GPT-3, which have shown promise in natural language processing tasks.
+- Additionally, it would be valuable to conduct a more in-depth analysis of the tweets in the neutral class to determine whether they can be classified as positive or negative with greater accuracy.
+- Another area for further analysis is to explore how sentiment varies across different brands and products showcased at the SXSW conference, particularly for major brands such as Google and Apple.
+- Finally, it would be valuable to explore how sentiment around the SXSW conference has evolved over time and how it compares to other similar events in the industry.
 
 
 
