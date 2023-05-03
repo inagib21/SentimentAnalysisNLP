@@ -52,7 +52,7 @@ Our best performing model was the roBerta model which we trained our dataset on.
     macro avg      0.74      0.69      0.71      1788
     weighted avg   0.80      0.80      0.80      1788
 
-# Reccomnedations:
+# Recommendations:
 Identify and leverage positive sentiment: The analysis shows that a large proportion of tweets are classified as neutral, but there are also many positive tweets. The firm could focus on identifying positive sentiment in the data and leverage that information to promote and highlight the positive aspects of their clients' businesses, products, or services.
 
 Address negative sentiment: Similarly, negative sentiment was identified in the analysis. It would be important for the firm to identify the reasons behind the negative sentiment and work with their clients to address any issues or concerns that may be impacting the public perception of their brand.
