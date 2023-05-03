@@ -21,7 +21,9 @@ The data for this project was obtained from CrowdFlower via Data.World, and it c
 The original columns in our dataset consist of:
 
  `tweet_text` This column contains the text of the tweet that was collected from Twitter during the SXSW conference.
+
 `emotion_in_tweet_is_directed_at` This column contains the target of the emotion expressed in the tweet. It could be a brand, product, or service that was mentioned in the tweet
+
 `is_there_an_emotion_directed_at_a_brand_or_product` This column contains the sentiment expressed in the tweet towards the target brand or product. The possible values are "Positive", "Negative", "Neutral".
 
 # Methods:
