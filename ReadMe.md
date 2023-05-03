@@ -73,11 +73,11 @@ Understand audience demographics: The sentiment analysis could also provide insi
 Please check out my [Notebook](https://github.com/inagib21/TweetSentiment/blob/main/UpdatedNotebook.ipynb) and [Presentation](https://github.com/inagib21/TweetSentiment/blob/main/PresentationNLP.pdf) and [Blog Post](https://medium.com/@inagib21/twitter-sentiment-analysis-for-sxsw-conference-892acd37dc52)
 
 ### Navagating Repository:
-PresentationNLP.pdf --> PDF Presentation of project
+[PresentationNLP.pdf](https://github.com/inagib21/TweetSentiment/blob/main/PresentationNLP.pdf) --> PDF Presentation of project
 
-ReadMe.md --> Document with oviewer of the project
+[ReadMe.md](https://github.com/inagib21/TweetSentiment/blob/main/ReadMe.md) --> Document with oviewer of the project
 
-Tweet.csv --> Data used in CSV format
+[Tweet.csv](https://github.com/inagib21/TweetSentiment/blob/main/Tweet.csv) --> Data used in CSV format
 
-UpdatedNotebook.ipynb --> Modeling and methods explaination in Jupyter Notebook
+[UpdatedNotebook.ipynb](https://github.com/inagib21/TweetSentiment/blob/main/UpdatedNotebook.ipynb) --> Modeling and methods explaination in Jupyter Notebook
 
