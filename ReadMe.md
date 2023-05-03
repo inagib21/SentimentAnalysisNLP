@@ -32,7 +32,7 @@ We performed exploratory data analysis to gain insights into the distribution of
 ### Data Preprocessing
 Before building our machine learning models, we performed several preprocessing steps on the data to prepare it for analysis. We first cleaned the text data by removing URLs, special characters, and stopwords using the NLTK library in Python. We then tokenized the cleaned text into individual words and lemmatized the words using the WordNetLemmatizer.
 
-### Modeling:
+### Modeling
 We built several machine learning models to classify the sentiment of the tweets(Naive Bayes, Random Forest, XGBoost). We used the TfidfVectorizer.to convert the text data into numerical features, and applied oversampling techniques (RandomOverSampler) to address class imbalance in the dataset. We also used a pre-trained language model, [Twitter-roBERTa-base](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment), with the help of the Hugging Face library and PyTorch.
 
 We evaluated the performance of each model using accuracy and F1 scores, and chose the best-performing model to apply to the entire dataset.
@@ -52,8 +52,14 @@ Our best performing model was the roBerta model which we trained our dataset on.
     macro avg      0.74      0.69      0.71      1788
     weighted avg   0.80      0.80      0.80      1788
 
+# Reccomnedations:
+Identify and leverage positive sentiment: The analysis shows that a large proportion of tweets are classified as neutral, but there are also many positive tweets. The firm could focus on identifying positive sentiment in the data and leverage that information to promote and highlight the positive aspects of their clients' businesses, products, or services.
 
-# Limitations and Further Analysis
+Address negative sentiment: Similarly, negative sentiment was identified in the analysis. It would be important for the firm to identify the reasons behind the negative sentiment and work with their clients to address any issues or concerns that may be impacting the public perception of their brand.
+
+Understand audience demographics: The sentiment analysis could also provide insights into the demographic breakdown of the audience. By understanding the demographics of the people who are engaging with their clients' brands, the firm can tailor their marketing strategies to better reach and engage with those specific groups. This could help to improve brand awareness, drive customer loyalty, and ultimately increase sales.
+
+# Limitations and Further Analysis:
 - One limitation of this project is that the dataset is relatively small and may not be representative of the broader sentiment around the brands tha we analyzed.
 - Another limitation is that the dataset only includes tweets from a limited time period and may not capture changes in sentiment over time.
 - In future analysis, it would be interesting to explore the use of more advanced machine learning models such as GPT-3, which have shown promise in natural language processing tasks.
