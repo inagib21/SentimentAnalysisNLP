@@ -33,7 +33,7 @@ We performed exploratory data analysis to gain insights into the distribution of
 Before building our machine learning models, we performed several preprocessing steps on the data to prepare it for analysis. We first cleaned the text data by removing URLs, special characters, and stopwords using the NLTK library in Python. We then tokenized the cleaned text into individual words and lemmatized the words using the WordNetLemmatizer.
 
 ### Modeling:
-We built several machine learning models to classify the sentiment of the tweets(Naive Bayes, Random Forest, XGBoost). We used the TfidfVectorizer.to convert the text data into numerical features, and applied oversampling techniques (RandomOverSampler) to address class imbalance in the dataset. We als used a pre-trained language model, [Twitter-roBERTa-base](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment), with the help of the Hugging Face library and PyTorch.
+We built several machine learning models to classify the sentiment of the tweets(Naive Bayes, Random Forest, XGBoost). We used the TfidfVectorizer.to convert the text data into numerical features, and applied oversampling techniques (RandomOverSampler) to address class imbalance in the dataset. We also used a pre-trained language model, [Twitter-roBERTa-base](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment), with the help of the Hugging Face library and PyTorch.
 
 We evaluated the performance of each model using accuracy and F1 scores, and chose the best-performing model to apply to the entire dataset.
 
