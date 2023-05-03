@@ -4,7 +4,7 @@ In this project, we conducted a Twitter sentiment analysis for the SXSW (South b
 
 We first collected the tweets from  CrowdFlower via [Data.World](https://data.world/crowdflower/brands-and-product-emotions) and then preprocessed the data by cleaning and tokenizing the text data. We then performed exploratory data analysis to gain insights into the data and its distribution.
 
-Next, we built several machine learning models using different vectorization techniques such as CountVectorizer, TfidfVectorizer, and Word2Vec, and also applied oversampling techniques to handle class imbalance. We evaluated the models based on their accuracy and F1 scores and chose the best-performing model.
+Next, we built several machine learning models using different the vectorization technique TfidfVectorizer and also applied oversampling techniques to handle class imbalance. We evaluated the models based on their accuracy and F1 scores and chose the best-performing model.
 
 Finally, we applied the chosen model to the entire dataset and analyzed the results to determine the overall sentiment of the tweets related to the SXSW Conference. Overall, the sentiment was found to be mostly neutral, with a smaller proportion of positive and negative tweets. We also provided a classification report and confusion matrix to give more detailed insights into the model's performance.
 
@@ -33,12 +33,12 @@ We performed exploratory data analysis to gain insights into the distribution of
 Before building our machine learning models, we performed several preprocessing steps on the data to prepare it for analysis. We first cleaned the text data by removing URLs, special characters, and stopwords using the NLTK library in Python. We then tokenized the cleaned text into individual words and lemmatized the words using the WordNetLemmatizer.
 
 ### Modeling:
-We built several machine learning models to classify the sentiment of the tweets(Naive Bayes, Random Fores, XGBoost, LTSM). We used two different vectorization techniques (TfidfVectorizer, and Word2Vec) to convert the text data into numerical features, and applied oversampling techniques (RandomOverSampler) to address class imbalance in the dataset.
+We built several machine learning models to classify the sentiment of the tweets(Naive Bayes, Random Fores, XGBoost). We used TfidfVectorizer to convert the text data into numerical features, and applied oversampling techniques (RandomOverSampler) to address class imbalance in the dataset. We also used a pre trained language model [(Twitter-roBERTa-base)](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment) with the help of the Hugging Face library and PyTorch.
 
 We evaluated the performance of each model using accuracy and F1 scores, and chose the best-performing model to apply to the entire dataset.
 
 # Results: 
-Our best performing mulitclass model
+Our best performing model
 
 # Limitations and Further Analysis
 - One limitation of this project is that the dataset is relatively small and may not be representative of the broader sentiment around the SXSW conference.
