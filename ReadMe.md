@@ -68,7 +68,7 @@ Understand audience demographics: The sentiment analysis could also provide insi
 - Finally, it would be valuable to explore how sentiment around the SXSW conference has evolved over time and how it compares to other similar events in the industry.
 
 ## For More Information:
-Please check out my [Notebook](https://github.com/inagib21/TweetSentiment/blob/main/UpdatedNotebook.ipynb) and [Presentation](https://github.com/inagib21/TweetSentiment/blob/main/PresentationNLP.pdf)
+Please check out my [Notebook](https://github.com/inagib21/TweetSentiment/blob/main/UpdatedNotebook.ipynb) and [Presentation](https://github.com/inagib21/TweetSentiment/blob/main/PresentationNLP.pdf) and [Blog Post](https://medium.com/@inagib21/twitter-sentiment-analysis-for-sxsw-conference-892acd37dc52)
 
 ### Navagating Repository:
 PresentationNLP.pdf --> PDF Presentation of project
