@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/45716414/235999747-309c7d99-0c06-4ba9-b568-6e0784437ca7.png)
+
 # Overview:
 
 In this project, we conducted a Twitter sentiment analysis for the SXSW (South by Southwest) Conference using natural language processing techniques. The goal was to determine the overall sentiment of the tweets related to Apple and Google, whether positive, negative, or neutral.
