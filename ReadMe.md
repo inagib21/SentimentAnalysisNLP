@@ -67,5 +67,15 @@ Understand audience demographics: The sentiment analysis could also provide insi
 - Another area for further analysis is to explore how sentiment varies across different brands and products showcased at the SXSW conference, particularly for major brands such as Google and Apple.
 - Finally, it would be valuable to explore how sentiment around the SXSW conference has evolved over time and how it compares to other similar events in the industry.
 
+## For More Information:
+Please check out my [Notebook](https://github.com/inagib21/TweetSentiment/blob/main/UpdatedNotebook.ipynb) and [Presentation](https://github.com/inagib21/TweetSentiment/blob/main/PresentationNLP.pdf)
 
+### Navagating Repository:
+PresentationNLP.pdf --> PDF Presentation of project
+
+ReadMe.md --> Document with oviewer of the project
+
+Tweet.csv --> Data used in CSV format
+
+UpdatedNotebook.ipynb --> Modeling and methods explaination in Jupyter Notebook
 
