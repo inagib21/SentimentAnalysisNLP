@@ -44,7 +44,7 @@ Our best performing model was the roBerta model which we trained our dataset on.
 ![image](https://user-images.githubusercontent.com/45716414/235820311-c6eb413c-4d07-4513-8ba7-7564872359d0.png)
 
 
-    precision    recall  f1-score   support
+               precision    recall  f1-score   support
 
     Negative       0.64      0.46      0.53       126
     Neutral        0.86      0.87      0.87      1094
