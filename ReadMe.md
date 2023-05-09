@@ -41,7 +41,9 @@ We evaluated the performance of each model using accuracy and F1 scores, and cho
 
 # Results: 
 Our best performing model was the roBerta model which we trained our dataset on. the model achieved an overall accuracy of 0.80, with the Neutral class having the highest F1-score (0.87). The macro-average F1-score for all classes was 0.71, indicating that the model performed reasonably well in classifying the data.
+
 ![image](https://user-images.githubusercontent.com/45716414/235820311-c6eb413c-4d07-4513-8ba7-7564872359d0.png)
+
 
 
                precision    recall  f1-score   support
