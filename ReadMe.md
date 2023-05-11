@@ -40,28 +40,41 @@ We built several machine learning models to classify the sentiment of the tweets
 We evaluated the performance of each model using accuracy and F1 scores, and chose the best-performing model to apply to the entire dataset.
 
 # Results: 
-Our best performing model was the roBerta model which we trained our dataset on. the model achieved an overall accuracy of 0.80, with the Neutral class having the highest F1-score (0.87). The macro-average F1-score for all classes was 0.71, indicating that the model performed reasonably well in classifying the data.
+Our best performing model was the roBerta model which we trained our dataset on. the model achieved an overall accuracy of 0.78, with the Neutral class having the highest F1-score (0.84). The weightted-average F1-score for all classes was 0.76, indicating that the model performed reasonably well in classifying the data.
 
-![image](https://user-images.githubusercontent.com/45716414/235820311-c6eb413c-4d07-4513-8ba7-7564872359d0.png)
+![image](![image](https://github.com/inagib21/TweetSentiment/assets/45716414/93182e81-2e49-482d-83d5-e2029500a6c0)
 
 
 
                precision    recall  f1-score   support
 
-    Negative       0.64      0.46      0.53       126
-    Neutral        0.86      0.87      0.87      1094
-    Positive       0.71      0.74      0.73       568
+     Negative       0.85      0.27      0.41       126
+      Neutral       0.79      0.90      0.84      1094
+     Positive       0.73      0.64      0.68       568
 
-    accuracy                           0.80      1788
-    macro avg      0.74      0.69      0.71      1788
-    weighted avg   0.80      0.80      0.80      1788
+     accuracy                           0.78      1788
+    macro avg       0.79      0.60      0.65      1788
+    weighted avg    0.78      0.78      0.76      1788
+
 
 # Recommendations:
-Identify and leverage positive sentiment: The analysis shows that a large proportion of tweets are classified as neutral, but there are also many positive tweets. The firm could focus on identifying positive sentiment in the data and leverage that information to promote and highlight the positive aspects of their clients' businesses, products, or services.
+For **Apple**:
 
-Address negative sentiment: Similarly, negative sentiment was identified in the analysis. It would be important for the firm to identify the reasons behind the negative sentiment and work with their clients to address any issues or concerns that may be impacting the public perception of their brand.
+Product Improvement:
 
-Understand audience demographics: The sentiment analysis could also provide insights into the demographic breakdown of the audience. By understanding the demographics of the people who are engaging with their clients' brands, the firm can tailor their marketing strategies to better reach and engage with those specific groups. This could help to improve brand awareness, drive customer loyalty, and ultimately increase sales.
+iPhone Battery: Apple can focus on improving the battery life of their iPhones, addressing a common concern among users. By enhancing battery performance, Apple can provide a better user experience and increase overall satisfaction.
+iPad Design: Apple can continue to innovate and refine the design of their iPads. This includes considerations such as improving ergonomics, reducing weight, and enhancing the overall aesthetics to attract and retain customers.
+Marketing:
+
+Pop-ups and Positive Experience: Apple's marketing efforts should include more pop-up events or experiences that allow potential customers to interact with their products. These events can showcase the positive experiences and unique features of Apple devices, creating a sense of excitement and encouraging adoption.
+
+For **Google**:
+Product Improvement:
+
+Google Circle: As Google Circle was mentioned in a negative sentiment, Google should focus on addressing the issues or criticisms associated with the platform. This may involve refining the user interface, enhancing privacy controls, or introducing new features to make it more appealing and user-friendly.
+Marketing:
+
+Promote Google Maps: Google Maps is a widely used and highly regarded navigation tool. Google can leverage this strength by promoting its mapping capabilities, highlighting features like real-time traffic updates, accurate directions, and integrations with other Google services. By emphasizing the benefits and convenience of using Google Maps, they can increase user engagement and attract new users.
 
 # Limitations and Further Analysis:
 - One limitation of this project is that the dataset is relatively small and may not be representative of the broader sentiment around the brands tha we analyzed.
