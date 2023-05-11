@@ -69,7 +69,7 @@ iPad Design: Apple can continue to innovate and refine the design of their iPads
 Pop-ups and Positive Experience: Apple's marketing efforts should include more pop-up events or experiences that allow potential customers to interact with their products. These events can showcase the positive experiences and unique features of Apple devices, creating a sense of excitement and encouraging adoption.
 
 ## For Google:
-###Product Improvement:
+### Product Improvement:
 
 Google Circle: As Google Circle was mentioned in a negative sentiment, Google should focus on addressing the issues or criticisms associated with the platform. This may involve refining the user interface, enhancing privacy controls, or introducing new features to make it more appealing and user-friendly.
 
